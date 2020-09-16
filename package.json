@@ -1,7 +1,7 @@
 {
   "name": "bootrwap",
   "version": "1.0.0",
-  "description": "",
+  "description": "this game is not easy",
   "main": "gulpfiles.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +18,6 @@
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-terser": "^1.4.0"
-  }
+  },
+  "devDependencies": {}
 }

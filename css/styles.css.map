@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"styles.css","sourcesContent":[]}
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,YACE,qBAAuB,CAGzB,IACE,YAAa","file":"styles.css","sourcesContent":["#GameScreen{\r\n  border: 1px black solid;\r\n}\r\n\r\nimg{\r\n  display: none;\r\n}"]}
