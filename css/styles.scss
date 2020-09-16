@@ -9,4 +9,24 @@ img{
 
 body{
   background:linear-gradient(to bottom, #82cffa, #f1ecd3);
+  font-family: sans-serif;
+ }
+
+#SpilNavn{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #1c0202;
+
+}
+
+.info{
+>p{
+  font-size: 16px;
+   padding-left: 23px;
+  font-weight: bold;
+}
+  li{
+    height: 30px;
+  }
 }

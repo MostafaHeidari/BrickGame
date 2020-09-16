@@ -1,2 +1,2 @@
-#GameScreen{border:5px solid #3b2011;margin-left:23%}img{display:none}body{background:linear-gradient(180deg,#82cffa,#f1ecd3)}
+#GameScreen{border:5px solid #3b2011;margin-left:23%}img{display:none}body{background:linear-gradient(180deg,#82cffa,#f1ecd3);font-family:sans-serif}#SpilNavn{width:100%;display:flex;justify-content:center;color:#1c0202}.info>p{font-size:16px;padding-left:23px;font-weight:700}.info li{height:30px}
 /*# sourceMappingURL=styles.css.map */
