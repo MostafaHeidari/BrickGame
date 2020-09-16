@@ -2,7 +2,7 @@ import { detectCollision } from "./collisionDetection.js"
 
 export default class Ball {
     constructor(game) {
-        this.image = document.querySelector("#imgBall");
+        this.image = document.querySelector("#imgBold");
 
         this.position = {x: 10, y: 400};
 
