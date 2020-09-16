@@ -1,7 +1,12 @@
 #GameScreen{
-  border: 1px black solid;
+  border: 5px #3b2011 solid;
+  margin-left: 23%;
 }
 
 img{
   display: none;
+}
+
+body{
+  background:linear-gradient(to bottom, #82cffa, #f1ecd3);
 }

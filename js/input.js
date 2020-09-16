@@ -7,7 +7,7 @@ export default class InputHandler{
                 case 37: paddle.moveLeft(); break;
                 case 65: paddle.moveLeft(); break;
                 case 39: paddle.moveRight(); break;
-                case 68: paddle.moveRight(); break;
+                case 40: paddle.moveRight(); break;
                 case 27: game.togglePause(); break;
                 case 32: game.start(); break;
             }
@@ -28,7 +28,7 @@ export default class InputHandler{
                         paddle.stop();
                     break;
 
-                case 38:
+                case 39:
                     if (paddle.Speed > 0)
                         paddle.stop();
                     break;

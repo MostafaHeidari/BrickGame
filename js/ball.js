@@ -6,7 +6,7 @@ export default class Ball {
 
         this.position = {x: 10, y: 400};
 
-        this.Speed = {x:5, y: 4};
+        this.Speed = {x:3, y: 3};
 
 
         this.Size = 16;
@@ -21,9 +21,9 @@ export default class Ball {
     }
 
     reset(){
-        this.position = {x: 10, y: 400};
+        this.position = {x: 10, y: 300};
 
-        this.Speed = {x:5, y: 4};
+        this.Speed = {x:3, y: 4};
     }
 
     draw(ctx){

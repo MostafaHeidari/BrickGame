@@ -1,1 +1,1 @@
-{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,YACE,qBAAuB,CAGzB,IACE,YAAa","file":"styles.css","sourcesContent":["#GameScreen{\r\n  border: 1px black solid;\r\n}\r\n\r\nimg{\r\n  display: none;\r\n}"]}
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,YACE,wBAAyB,CACzB,eAAgB,CAGlB,IACE,YAAa,CAGf,KACE,kDAAuD","file":"styles.css","sourcesContent":["#GameScreen{\r\n  border: 5px #3b2011 solid;\r\n  margin-left: 23%;\r\n}\r\n\r\nimg{\r\n  display: none;\r\n}\r\n\r\nbody{\r\n  background:linear-gradient(to bottom, #82cffa, #f1ecd3);\r\n}"]}

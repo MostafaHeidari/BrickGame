@@ -1,8 +1,7 @@
 import Paddle from "./paddle.js";
 import Ball from "./ball.js";
 import InputHandler from "./input.js";
-import Brick from "./brick.js";
-import { BuildLevel, level1 } from  "./levels.js";
+ import { BuildLevel, level1 } from  "./levels.js";
 
 const GameState = {
     PAUSED:0,
@@ -20,7 +19,7 @@ export default class Game {
 
         this.gameObjects = [];
 
-        this.lives = 2;
+        this.lives = 3;
 
         this.bricks = [];
 
@@ -64,25 +63,25 @@ export default class Game {
         }
 
         if (this.GameState === GameState.MENU){
-            ctx.rect(0, 0,this.GameWidth,this.GameHeight);
-            ctx.fillStyle = "rgba(0, 0, 0,1)";
+            ctx.rect(2, 2,this.GameWidth,this.GameHeight);
+            ctx.fillStyle = "rgb(29,124,110)";
             ctx.fill();
 
             ctx.font = "30px Arial";
             ctx.fillStyle = "white";
             ctx.textAlign = "center";
-            ctx.fillText("Click SPACEBAR to start", this.GameWidth / 2, this.GameHeight / 2);
+            ctx.fillText("Click  SPACEBAR  to  start the Game :)", this.GameWidth / 2, this.GameHeight / 2);
         }
 
         if (this.GameState === GameState.GAMEOVER){
-            ctx.rect(0, 0, this.GameWidth, this.GameHeight);
-            ctx.fillStyle = "rgba(0,0,0,1)";
+            ctx.rect(2, 2, this.GameWidth, this.GameHeight);
+            ctx.fillStyle = "rgb(193,154,45)";
             ctx.fill();
 
             ctx.font = "30px Arial";
             ctx.fillStyle = "white";
             ctx.textAlign = "center";
-            ctx.fillText("Sorry! you lost the Game",this.GameWidth / 2,this.GameHeight / 2);
+            ctx.fillText("Game over, but you can try again",this.GameWidth / 2,this.GameHeight / 2);
 
         }
     }

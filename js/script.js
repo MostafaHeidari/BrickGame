@@ -5,7 +5,7 @@ let ctx = canvas.getContext("2d");
 
 const GameWidth = 800;
 
-const GameHeight = 600;
+const GameHeight = 700;
 
 let game = new Game(GameWidth,GameHeight);
 
